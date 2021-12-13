@@ -469,7 +469,7 @@ const contactInfo = {
 	location: "Gomel, Belarus",
   number: "+375 349-495-6920",
 	hireable: "Yes",
-	avatar: require("./assets/images/avatar.jpg"),
+	avatar: require("./assets/images/avatar.png"),
   email_address: "iharzhytkevich@outlook.com"
 };
 
