@@ -11,21 +11,21 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Ihar Zhytkevich",
-  title: "Hi all, I'm Ihar",
+  username: "Wei Yuxi",
+  title: "Hi all, I'm Yuxi",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native, NFT / Web3 / Dex and some other cool libraries and frameworks."
   ),
-  resumeLink: "https://resume.io/r/CWOyzVsDh", // Set to empty to hide the button
+  resumeLink: "https://resume.io/r/jj2OItsuz", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/iharzhytkevich",
-  linkedin: "https://www.linkedin.com/in/ihar-zhytkevich/",
-  gmail: "iharzhytkevich@outlook.com",
+  github: "https://github.com/fierce-dragon",
+  linkedin: "https://www.linkedin.com/in/wei-yuxi-237790228/",
+  gmail: "wei.yuxi@outlook.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -121,10 +121,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "The University of Tokyo, Japan",
-      logo: require("./assets/images/tokyoLogo.png"),
-      subHeader: "Master's Degree in Computer Science",
-      duration: "September 2008 - April 2012",
+      schoolName: "University of Science and Technology Beijing",
+      logo: require("./assets/images/university.png"),
+      subHeader: "Bachelor's Degree in Computer Science",
+      duration: "Feb 2008 - Aug 2012",
       descBullets: [
 				"I was selected for ACM Contest which is given to top 10% of students in college.",
         "I have received award from respected director for consistently best performance in academics."
@@ -315,57 +315,24 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Angular Basic",
-      subtitle: "HackerRank Certificate",
-      image: require("./assets/images/Angular-Basic.png"),
-      footerLink: [
-        {
-          name: "View Certification",
-          url: "https://www.hackerrank.com/certificates/8bd0361872c8"
-        },
-      ]
-    },
-    {
-      title: "React Basic",
+      title: "React",
       subtitle: "HackerRank Certificate",
       image: require("./assets/images/React-Basic.png"),
       footerLink: [
         {
           name: "View Certification",
-          url: "https://www.hackerrank.com/certificates/96182e737244"
+          url: "https://www.hackerrank.com/certificates/d92ab56518f1"
         }
       ]
     },
     {
-      title: "JavaScript Intermediate",
-      subtitle: "HackerRank Certificate",
-      image: require("./assets/images/JS-Intermediate.png"),
-      footerLink: [
-        {
-          name: "View Certification",
-          url: "https://www.hackerrank.com/certificates/277facfbec45"
-        }
-      ]
-    },
-    {
-      title: "Node Basic",
-      subtitle: "HackerRank Certificate",
-      image: require("./assets/images/Node-Basic.png"),
-      footerLink: [
-        {
-          name: "View Certification",
-          url: "https://www.hackerrank.com/certificates/2c037bb3d743"
-        }
-      ]
-    },
-    {
-      title: "Problem Solving Intermediate",
+      title: "Problem Solving",
       subtitle: "HackerRank Certificate",
       image: require("./assets/images/Problem-Solving.png"),
       footerLink: [
         {
           name: "View Certification",
-          url: "https://www.hackerrank.com/certificates/2ad9773c221a"
+          url: "https://www.hackerrank.com/certificates/2cb9f32d6e2a"
         }
       ]
     },
@@ -376,29 +343,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certification",
-          url: "https://www.hackerrank.com/certificates/f52e0612faac"
-        }
-      ]
-    },
-    {
-      title: "SQL Basic",
-      subtitle: "HackerRank Certificate",
-      image: require("./assets/images/SQL-Basic.png"),
-      footerLink: [
-        {
-          name: "View Certification",
-          url: "https://www.hackerrank.com/certificates/4cdb8ccb9c64"
-        }
-      ]
-    },
-    {
-      title: "Python Basic",
-      subtitle: "HackerRank Certificate",
-      image: require("./assets/images/Python-Basic.png"),
-      footerLink: [
-        {
-          name: "View Certification",
-          url: "https://www.hackerrank.com/certificates/07a6aeb18427"
+          url: "https://www.hackerrank.com/certificates/aedf30c31052"
         }
       ]
     }
@@ -466,11 +411,11 @@ const contactInfo = {
   title: emoji("Reach Out to me!"),
   subtitle: "DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.",
 	bio: "Aspiring Software Developer 👾 | Open Source Contributor 🔥 | Speaker🎙 | Tech Writer ✍️ ",
-	location: "Gomel, Belarus",
-  number: "+375 349-495-6920",
+	location: "Jilin, China",
+  number: "+86 17521626266",
 	hireable: "Yes",
 	avatar: require("./assets/images/avatar.png"),
-  email_address: "iharzhytkevich@outlook.com"
+  email_address: "wei.yuxi@outlook.com"
 };
 
 // Twitter Section

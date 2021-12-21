@@ -44,7 +44,7 @@ export default function GithubProfileCard() {
           <div className="">
             <img
               src={contactInfo.avatar}
-              alt="Ihar Zhytkevich"
+              alt="Wei Yuxi"
 							width="290px"
 							height="290px"
               className="profile-image"
